@@ -1,0 +1,10 @@
+prefix=/home/clj/work/cof/amd-cockpit/xen_soa/third/libs/vsomeip
+exec_prefix=/home/clj/work/cof/amd-cockpit/xen_soa/third/libs/vsomeip
+libdir=/home/clj/work/cof/amd-cockpit/xen_soa/third/libs/vsomeip/lib
+includedir=/home/clj/work/cof/amd-cockpit/xen_soa/third/libs/vsomeip/include
+
+Name: 
+Description: New SOME/IP stack, feature complete
+Version: 3.3.8
+Libs: -L${libdir} -lvsomeip3
+Cflags: -I${includedir}

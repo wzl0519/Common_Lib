@@ -1,0 +1,11 @@
+prefix=/home/clj/work/cof/amd-cockpit/xen_soa/third/libs/capicxx-core-runtime
+exec_prefix=/home/clj/work/cof/amd-cockpit/xen_soa/third/libs/capicxx-core-runtime
+libdir=/home/clj/work/cof/amd-cockpit/xen_soa/third/libs/capicxx-core-runtime/lib
+includedir=/home/clj/work/cof/amd-cockpit/xen_soa/third/libs/capicxx-core-runtime/include
+
+Name: 
+Description: GENIVI Common API C++ Library
+Version: 3.2.0
+Libs: -L${libdir} -lCommonAPI
+Cflags: -I${includedir}/CommonAPI-3.2
+

@@ -1,0 +1,13 @@
+prefix=/home/clj/work/cof/amd-cockpit/xen_soa/third/libs/capicxx-someip-runtime
+exec_prefix=/home/clj/work/cof/amd-cockpit/xen_soa/third/libs/capicxx-someip-runtime
+libdir=/home/clj/work/cof/amd-cockpit/xen_soa/third/libs/capicxx-someip-runtime/lib
+includedir=/home/clj/work/cof/amd-cockpit/xen_soa/third/libs/capicxx-someip-runtime/include
+
+Name: 
+Description: C++ CommonAPI SOME/IP Runtime
+Version: 3.2.0
+Libs: -L${libdir} -lCommonAPI-SomeIP
+Requires: CommonAPI
+Requires.private: vsomeip3
+Cflags: -I${includedir}/CommonAPI-3.2
+
