@@ -1,0 +1,10 @@
+prefix=/home/taohj_86/temp/project_android/common_api/vsomeip-master
+exec_prefix=/home/taohj_86/temp/project_android/common_api/vsomeip-master
+libdir=/home/taohj_86/temp/project_android/common_api/vsomeip-master/lib
+includedir=/home/taohj_86/temp/project_android/common_api/vsomeip-master/include
+
+Name: 
+Description: New SOME/IP stack, feature complete
+Version: 3.3.8
+Libs: -L${libdir} -lvsomeip3
+Cflags: -I${includedir}
