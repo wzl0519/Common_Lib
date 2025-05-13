@@ -1,0 +1,11 @@
+prefix=/home/taohj_86/temp/project/common_api/bin/capicxx-core-runtime-master
+exec_prefix=/home/taohj_86/temp/project/common_api/bin/capicxx-core-runtime-master
+libdir=/home/taohj_86/temp/project/common_api/bin/capicxx-core-runtime-master/lib
+includedir=/home/taohj_86/temp/project/common_api/bin/capicxx-core-runtime-master/include
+
+Name: 
+Description: GENIVI Common API C++ Library
+Version: 3.2.0
+Libs: -L${libdir} -lCommonAPI
+Cflags: -I${includedir}/CommonAPI-3.2
+
